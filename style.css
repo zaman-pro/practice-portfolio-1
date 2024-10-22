@@ -290,3 +290,11 @@ i {
     width: 80%;
   }
 }
+
+
+/* tabs and medium devices */
+@media screen and (min-width: 576px) and (max-width:990px) {
+  .banner{
+      flex-direction: column;
+  }
+}
