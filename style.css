@@ -286,4 +286,7 @@ i {
   .about {
     margin: 50px 0;
   }
+  .footer-col{
+    width: 80%;
+  }
 }
