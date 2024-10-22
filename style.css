@@ -246,11 +246,44 @@ i {
 
 /* mobile and small devices */
 @media screen and (max-width: 576px) {
+  main section,
+  footer {
+    margin-top: 50px;
+  }
   .nav-header {
     background-image: none;
   }
+  nav > ul,
+  footer,
+  .res-container,
+  .skills-container,
+  .about-info-container,
   nav,
   .banner {
     flex-direction: column;
+  }
+  .res-container,
+  footer,
+  nav > ul {
+    gap: 20px;
+  }
+  .banner-pic {
+    width: 100%;
+    height: auto;
+  }
+  .res-col,
+  .skills,
+  .about,
+  #what-i-do-desc,
+  footer,
+  .banner {
+    padding: 0 20px;
+  }
+  .banner-greet,
+  .nav-logo {
+    margin: 0;
+  }
+  .about {
+    margin: 50px 0;
   }
 }
