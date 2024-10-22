@@ -241,3 +241,16 @@ i {
 .contact-btn i {
   color: #fd6e0a;
 }
+
+/* responsive styles */
+
+/* mobile and small devices */
+@media screen and (max-width: 576px) {
+  .nav-header {
+    background-image: none;
+  }
+  nav,
+  .banner {
+    flex-direction: column;
+  }
+}
